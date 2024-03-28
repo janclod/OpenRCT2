@@ -27,6 +27,11 @@ constexpr uint16_t kMaxServerDescriptionLength = 256;
 #include <string_view>
 #include <vector>
 
+constexpr int32_t kNetworkDefaultPort = 11753;
+#define NETWORK_LAN_BROADCAST_PORT 11754
+#define NETWORK_LAN_BROADCAST_MSG "openrct2.server.query"
+#define MAX_SERVER_DESCRIPTION_LENGTH 256
+
 class GameAction;
 struct Peep;
 struct CoordsXYZ;
