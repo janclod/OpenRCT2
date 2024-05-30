@@ -283,7 +283,7 @@ enum SCROLL_FLAGS
     VSCROLLBAR_DOWN_PRESSED = (1 << 7),
 };
 
-#define SCROLLBAR_SIZE 16
+constexpr u_int8_t kScrollBarSize = 16;
 
 enum
 {
